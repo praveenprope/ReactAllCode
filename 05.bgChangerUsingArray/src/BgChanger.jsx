@@ -11,7 +11,7 @@ function bgChanger() {
   return (
     <>
       <div style={{backgroundColor: color }} className='h-screen w-full flex justify-center items-center' >
-         <div className='space-x-4 h-12 bg-white text-white p-6 rounded-lg' >
+         <div className='space-x-4 h-12bf bg-white text-white p-6 rounded-lg' >
           {colorArray.map((items,index)=>{
              return(
                <button 
